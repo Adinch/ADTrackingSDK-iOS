@@ -8,20 +8,23 @@ To use the library you need to get the application key from advertiser.
 
 System Frameworks
 ----------------- 
+
 Add the system frameworks required by the supported tracking SDK:
 
-	*.	UIKit 
-	*.	Foundation
+* UIKit 
+* Foundation
 
 1. Example
 ------------------
 
+```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	[ADTracking setTargetID:@"YOUR_KEY_HERE"];
 	
 	// Your code here…
 
-    	return YES;
-}
+	return YES;
+} 
+```
 

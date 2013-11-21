@@ -14,7 +14,7 @@ Add the system frameworks required by the supported tracking SDK:
 * UIKit 
 * Foundation
 
-1. Example
+Example
 ------------------
 
 ```

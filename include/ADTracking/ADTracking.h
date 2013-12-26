@@ -1,6 +1,5 @@
 //
 //  ADTracking.h
-//  ADTracking
 //
 //  Created by szarajewski on 08.11.13.
 //  Copyright (c) 2013 "Online Publishing Partners" LLC. All rights reserved.
@@ -10,6 +9,13 @@
 
 @interface ADTracking : NSObject
 
-+ (void) setTargetID:(NSString *)targetID;
+//  If logger is enabled you will recieve diagnostic messages
+//    about tracker workflow into xCode terminal and into asl.
+//  We recommend to disable logger in release build.
+//  By default logger is disabled.
++ (void) setLoggerEnable:(BOOL)flag;
+
+//  Call this method for send tracking event
++ (void) setTrackingtID:(NSString *)trackingtID;
 
 @end

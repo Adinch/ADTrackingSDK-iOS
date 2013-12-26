@@ -20,7 +20,7 @@ Example
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	[ADTracking setTargetID:@"YOUR_KEY_HERE"];
+	[ADTracking setTrackingID:@"YOUR_TRACKING_ID_HERE"];
 	
 	// Your code here…
 

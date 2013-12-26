@@ -16,6 +16,6 @@
 + (void) setLoggerEnable:(BOOL)flag;
 
 //  Call this method for send tracking event
-+ (void) setTrackingtID:(NSString *)trackingtID;
++ (void) setTrackingID:(NSString *)trackingtID;
 
 @end
